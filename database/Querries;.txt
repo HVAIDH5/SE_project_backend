@@ -1,0 +1,21 @@
+CREATE TABLE USERS (id serial primary key not null , username text , email text unique , password text);
+
+INSERT INTO USERS (username , email , password) values('Rithvik' , 'Rithvik@gmail.com' , '$2b$12$b2bTrw9u3uDYnP0jbqNIv.SGUkz.3pl1JeA4itp2tytcJnSCg8xz6');
+
+INSERT INTO USERS (username , email , password) values('Harsh' , 'harsh@gmail.com' , '$2b$12$KJnsftCCiOl8rktj8sLFl.27YLfwiN/yAkiGi8HVaZT0GGZucrA52');
+
+
+INSERT INTO USERS (username , email , password) values('Sid' , 'sid@gmail.com' , '$2b$12$KJnsftCCiOl8rktj8sLFl.27YLfwiN/yAkiGi8HVaZT0GGZucrA52');
+
+CREATE TABLE FEEDBACK (movieName text NOT NULL, email text NOT NULL, ratingCounter SMALLINT, STARS bigint , feedbackText varchar (150));
+
+INSERT INTO FEEDBACK (movieName , email , ratingCounter , stars ) values('Movie 1','sid@gmail.com','1','5');
+
+select * from feedback
+
+
+
+SELECT MAX(ratingcounter) where movieName = 'Movie 1' ;
+
+
+SELECT MAX(ratingcounter)  FROM FEEDBACK  WHERE movieName = 'Movie 1';
