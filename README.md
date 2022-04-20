@@ -62,6 +62,6 @@ https://dazzling-torvalds-e63a8b.netlify.app
 6. For Testing purpose : email = man2@gmail.com , Password = 123456 , username = man2
 
 ## Team Members
-### Siddhant Salve - 2020IMT-099
-### Rithvik Dave - 2020IMT-079
-### Harsh Vaidh -2020IMG-025
+### Ayan Nafees - 2020IMG-014
+### Harsh Vaidh - 2020IMG-025
+### Shadab Malik -2020IMG-057
